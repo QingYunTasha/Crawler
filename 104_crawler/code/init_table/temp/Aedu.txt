@@ -1,0 +1,15 @@
+CREATE TABLE Aedu
+(
+id VARCHAR(6) NOT NULL,
+date DATE NOT NULL,
+
+null TINYINT,
+all TINYINT,
+secondary TINYINT,
+high TINYINT,
+specialist TINYINT,
+college TINYINT,
+master+ TINYINT,
+
+PRIMARY KEY(id,date)
+);

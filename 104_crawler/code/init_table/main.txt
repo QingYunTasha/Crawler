@@ -1,0 +1,15 @@
+CREATE TABLE main
+(
+jobName VARCHAR(150),
+id VARCHAR(6) NOT NULL,
+date DATE NOT NULL,
+addressRegion VARCHAR(10),
+jobDescription TEXT,
+workExp VARCHAR(10),
+
+major VARCHAR(50),
+language VARCHAR(100),
+corpId VARCHAR(100),
+
+PRIMARY KEY(id,date)
+);

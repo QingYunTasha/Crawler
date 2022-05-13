@@ -1,0 +1,8 @@
+CREATE TABLE corp
+(
+date DATE NOT NULL,
+custName VARCHAR(150),
+employees VARCHAR(14),
+
+PRIMARY KEY(custName,date)
+);

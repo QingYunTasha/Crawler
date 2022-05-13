@@ -1,0 +1,10 @@
+CREATE TABLE applicant
+(
+id VARCHAR(6) NOT NULL,
+date DATE NOT NULL,
+edu TINYTEXT,
+exp TINYTEXT,
+Total SMALLINT,
+
+PRIMARY KEY(id,date)
+);

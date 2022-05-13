@@ -1,0 +1,5 @@
+create table major
+(
+id SMALLINT PRIMARY KEY,
+name VARCHAR(20)
+);
