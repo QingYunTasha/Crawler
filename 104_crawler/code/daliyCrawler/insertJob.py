@@ -5,7 +5,7 @@ def insertJob(data: dict):
     db_settings = {
         "host": "localhost",
         "user": "root",
-        "password": "dieeid8181",
+        "password": ###,
         "db": "104_db",
         "charset": "utf8"
     }
